@@ -11,5 +11,5 @@ public class ApplicationDbContext : IdentityDbContext
 	}
 
 	protected override void OnConfiguring(DbContextOptionsBuilder options) => 
-	options.UseSqlServer("Server=NCCTCC;initial catalog=iii;Trusted_Connection=True;multipleactiveresultsets=true;TrustServerCertificate=True");
+	options.UseSqlServer("Server=localhost;initial catalog=iii;Trusted_Connection=True;multipleactiveresultsets=true;TrustServerCertificate=True");
 }
